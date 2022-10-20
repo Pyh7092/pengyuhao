@@ -1,0 +1,7 @@
+http://example.com/2022/10/17/hello-world/
+http://example.com/2022/10/17/Call-me-hero/
+http://example.com/2022/10/18/998/
+http://example.com/manifest.json
+http://example.com/
+http://example.com/tags/1/
+http://example.com/tags/2/
