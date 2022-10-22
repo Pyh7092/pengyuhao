@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/10/18/998/</loc>
-    
-    <lastmod>2022-10-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/manifest.json</loc>
     
     <lastmod>2022-10-19</lastmod>
@@ -40,22 +31,15 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-10-20</lastmod>
+    <lastmod>2022-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://example.com/tags/1/</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/2/</loc>
-    <lastmod>2022-10-20</lastmod>
+    <lastmod>2022-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
