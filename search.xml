@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>oracle-常见问题</title>
+      <link href="/2022/10/25/oracle-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/10/25/oracle-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="oracle-常见问题"><a href="#oracle-常见问题" class="headerlink" title="-oracle-常见问题"></a>-oracle-常见问题</h1><p>远程链接oracle，由于虚拟机不小心断开链接导致数据库关闭问题的解决。</p><p>错误提示：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR:</span><br><span class="line">ORA-01034: ORACLE not available</span><br><span class="line">ORA-27101: shared memory realm does not exist</span><br></pre></td></tr></table></figure><p>解决方法：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">请输入用户名: sys as sysdba</span><br><span class="line">输入口令:</span><br><span class="line">已连接到空闲例程。</span><br><span class="line"></span><br><span class="line">先连接到管理员用户下将用例开启</span><br><span class="line"></span><br><span class="line">SQL&gt; startup;</span><br><span class="line">ORACLE 例程已经启动。</span><br><span class="line"></span><br><span class="line">然后就会出现一下</span><br><span class="line"></span><br><span class="line">Total System Global Area 3390558208 bytes</span><br><span class="line">Fixed Size 2180464 bytes</span><br><span class="line">Variable Size 1979714192 bytes</span><br><span class="line">Database Buffers 1392508928 bytes</span><br><span class="line">Redo Buffers 16154624 bytes</span><br><span class="line">数据库装载完毕。</span><br><span class="line">数据库已经打开。</span><br></pre></td></tr></table></figure><img src="/2022/10/25/oracle-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/wallhaven-0p25w3.jpg" class="">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>text</title>
       <link href="/2022/10/22/text/"/>
       <url>/2022/10/22/text/</url>
